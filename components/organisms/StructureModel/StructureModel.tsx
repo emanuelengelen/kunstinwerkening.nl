@@ -4,11 +4,11 @@ import styles from './StructureModel.module.scss';
 
 import Location from './elements/Location/Location';
 
-import LeftInfo from './elements/Maker';
-import RightInfo from './elements/Reciver';
-import Artwork from './elements/Artwork';
+import LeftInfo from 'components/organisms/StructureModel/elements/Maker/Maker';
+import RightInfo from 'components/organisms/StructureModel/elements/Reciver/Reciver';
+import Artwork from 'components/organisms/StructureModel/elements/Artwork/Artwork';
 import InnerCarrier from './elements/InnerCarrier/InnerCarrier';
-import Icon from '../../molecules/Icons';
+import Icon from 'components/molecules/StructureIcons/StructureIcons';
 import useWindowInnerWidth from 'hooks/useWindowInnerWidth';
 
 const StructureModel = () => {

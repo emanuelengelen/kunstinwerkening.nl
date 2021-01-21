@@ -3,7 +3,7 @@ import styles from './Location.module.scss';
 
 import { TypeContainerRect } from '../../types';
 import Part from 'components/organisms/StructureModel/Part';
-import Icon from 'components/molecules/Icons';
+import Icon from 'components/molecules/StructureIcons/StructureIcons';
 
 const Location = (props: PropsWithChildren<TypeContainerRect>) => {
     const { children, containerRect } = props;
