@@ -1,16 +1,16 @@
-import React from "react";
-import "../styles/globals.scss";
+import React from 'react';
+import '../styles/main.scss';
 
-import Header from "components/organisms/Header";
-import StructureModel from "components/organisms/StructureModel";
+import Header from 'components/organisms/Header/Header';
 
-const _App = () => {
-  return (
-    <main>
-      <Header />
-      <StructureModel />
-    </main>
-  );
+const _App = ({ Component, pageProps }) => {
+    return (
+        <main>
+            <Header />
+
+            <Component {...pageProps} />
+        </main>
+    );
 };
 
 export default _App;
