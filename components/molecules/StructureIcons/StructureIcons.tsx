@@ -1,7 +1,7 @@
 import React from 'react';
 
-import K01 from 'components/molecules/Icons/K01';
-import K02 from 'components/molecules/Icons/K02';
+import K01 from 'components/molecules/StructureIcons/K01';
+import K02 from 'components/molecules/StructureIcons/K02';
 
 import styles from './Icons.module.scss';
 
