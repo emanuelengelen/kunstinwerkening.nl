@@ -1,0 +1,27 @@
+.icon {
+    path {
+        stroke: white;
+        fill: #113899;
+        stroke-width: 1px;
+
+        &:hover {
+            stroke: purple;
+        }
+
+        &:hover + text {
+            fill: purple;
+        }
+    }
+
+    .text {
+        color: white;
+        font-family: 'Post Grotesk Bold';
+        font-size: 18px;
+        pointer-events: none;
+    }
+
+    text {
+        fill: white;
+        color: white;
+    }
+}
