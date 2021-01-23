@@ -1,22 +1,32 @@
 import React from 'react';
-import styles from './StructureCreator.module.scss';
 
-// import InstructionMessage from './InstructionMessage';
 import StructureDescriber from 'components/scopes/StructureCreator/partials/StructureDescriber/StructureDescriber';
 import StructureModel from 'components/organisms/StructureModel/StructureModel';
-import HelpModal from 'components/scopes/StructureCreator/partials/HelpPanel';
+import HelpPanel from 'components/scopes/StructureCreator/partials/HelpPanel/HelpPanel';
+import HelpButton from 'components/scopes/StructureCreator/partials/HelpButton/HelpButton';
+import { SidePanelContainer } from 'components/molecules';
+import styles from './StructureCreator.module.scss';
 
 const StructureCreator = () => {
     return (
         <section className={styles.structure_creator}>
-            {/*<InstructionMessage />*/}
+            <div className={styles.structure_creator__creator}>
+                <div className={styles.structure_creator__creator__model}>
+                    <StructureModel />
+                </div>
 
-            <div className={styles.structure_creator__model}>
-                <StructureModel />
+                <div className={styles.structure_creator__creator__describer}>
+                    <StructureDescriber />
+                </div>
+
+                <HelpButton />
             </div>
 
-            <StructureDescriber />
-            <HelpModal />
+            <div className={styles.structure_creator__side_panel}>
+                <SidePanelContainer>
+                    <HelpPanel />
+                </SidePanelContainer>
+            </div>
         </section>
     );
 };

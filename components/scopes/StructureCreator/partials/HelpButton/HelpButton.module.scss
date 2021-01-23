@@ -2,5 +2,14 @@
     position: absolute;
     bottom: 30px;
     right: 30px;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    &__button {
+        font-size: 16px;
+        text-align: right;
+        color: white;
+        margin-bottom: 10px;
+    }
 }

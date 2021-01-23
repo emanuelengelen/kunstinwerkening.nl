@@ -8,7 +8,7 @@ const useStructuresocket = (artDesc) => {
     const webSocket = useRef(null);
 
     useEffect(() => {
-        webSocket.current = new WebSocket('ws://localhost:8765');
+        webSocket.current = new WebSocket('ws://localhost:3001');
 
         webSocket.current.onmessage = (message) => {
             setMessages(message.data);

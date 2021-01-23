@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './HelpModal.module.scss';
+import styles from 'components/scopes/StructureCreator/partials/HelpPanel/HelpPanel.module.scss';
 
-const HelpModal = () => {
-    return <button className={styles.help_button}>help me</button>;
+const HelpPanel = () => {
+    return <section className={styles.help_panel}>test </section>;
 };
 
-export default HelpModal;
+export default HelpPanel;

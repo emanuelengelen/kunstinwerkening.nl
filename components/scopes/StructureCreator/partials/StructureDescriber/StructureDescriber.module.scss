@@ -2,14 +2,10 @@
     position: relative;
     width: 100%;
     padding: 10px;
-    margin-top: 80px;
 
     &__input {
-        position: absolute;
-        top: 0;
+        position: relative;
         width: 100%;
-        left: 0;
-        right: 0;
         height: 30px;
         background: none;
         z-index: 2;
