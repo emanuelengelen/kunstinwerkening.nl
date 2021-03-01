@@ -3,7 +3,7 @@ import React from 'react';
 import K01 from 'components/molecules/StructureIcons/K01';
 import K02 from 'components/molecules/StructureIcons/K02';
 
-import styles from './Icons.module.scss';
+import styles from 'components/commons/StructureIcons/Icons.module.scss';
 
 type Props = {
     iconName: string;
