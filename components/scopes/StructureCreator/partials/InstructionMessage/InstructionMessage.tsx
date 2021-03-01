@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './InstructionMessage.module.scss';
+import styles from 'components/scopes/StructureCreator/partials/InstructionMessage/InstructionMessage.module.scss';
 
 const InstructionMessage = () => {
     // const message = useAnimatedMessage(

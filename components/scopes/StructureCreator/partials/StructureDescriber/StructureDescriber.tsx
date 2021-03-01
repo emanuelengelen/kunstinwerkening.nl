@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import sanitizeHtml from 'sanitize-html';
 
-import styles from './StructureDescriber.module.scss';
+import styles from 'components/scopes/StructureCreator/partials/StructureDescriber/StructureDescriber.module.scss';
 import useStructuresocket from 'components/scopes/StructureCreator/hooks/useStructuresocket';
 
 function setEndOfContenteditable(contentEditableElement) {

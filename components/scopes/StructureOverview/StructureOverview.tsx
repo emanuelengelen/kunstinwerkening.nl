@@ -1,7 +1,3 @@
-import React from 'react';
-
-const StructureOverview = () => {
-    return <div>StructureOverview</div>;
-};
-
-export default StructureOverview;
+export default function StructureOverviewPage() {
+    return <section>StructureOverviewPage</section>;
+}

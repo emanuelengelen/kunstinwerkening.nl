@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './HelpButton.module.scss';
+import styles from 'components/scopes/StructureCreator/partials/HelpButton/HelpButton.module.scss';
 
 const HelpButton = () => {
     return (
